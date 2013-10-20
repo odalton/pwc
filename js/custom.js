@@ -30,4 +30,11 @@ $(document).ready(function () {
     });
     handleScroll(top);
   }
+
+	$( ".contact-article" ).load( "contact" );
+
+
+
+
+
 });

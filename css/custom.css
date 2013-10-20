@@ -21,7 +21,7 @@ header.header {
   position:absolute;
   width:100%;
   border-top:30px solid #333;
-  height:80px;
+  height:140px;
   background:#0098CA;
   z-index:100;
   left:0;
@@ -41,4 +41,69 @@ header.header.fixedMobile {
   position:relative;
   width:1252px;
   margin:0 auto;
+}
+
+.primary-logo {
+  float:left;
+  padding:10px;
+  width:115px;
+}
+
+.primary-logo img {
+  width:89px;
+}
+
+.primary-navigation {
+  float:right;
+  margin-top:40px;
+}
+
+header.header div.headerWrapper div.primary-navigation div.menu ul li {
+  display:inline;
+  padding:10px;
+}
+
+html body header.header div.headerWrapper div.primary-navigation div.menu ul li a {
+  font-size:20px;
+  font-weight:100;
+  color: #FFFFFF;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+html body header.header div.headerWrapper div.primary-navigation div.menu ul li a:hover {
+  color:#000000;
+}
+
+.contact {
+  position: absolute;
+  top:-27px;
+  right:6px;
+  color:#FFFFFF;
+}
+
+#content-header {
+  padding-top: 160px;
+}
+
+article .container h2 {
+  margin-top:0.75em;
+}
+
+.error {
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+}
+
+.success {
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+}
+
+form span {
+  color: red;
 }
